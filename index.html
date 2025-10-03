@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Bootcamp Timeline Generator</title>
+</head>
+
+<body>
+  <h2>Bootcamp Timeline Generator</h2>
+
+  <div class="container">
+    <label>Start Date: <input type="date" id="startDate"></label><br>
+    <label>Upload CSV: <input type="file" id="csvFile"></label><br>
+    <button id="generateBtn">Generate Timeline</button>
+  </div>
+
+  <table id="timelineTable">
+    <thead>
+      <tr>
+        <th>Block</th>
+        <th>Module</th>
+        <th>Duration</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
