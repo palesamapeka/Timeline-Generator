@@ -36,7 +36,7 @@ It automatically excludes weekends, South African public holidays, and the Decem
 
 ## 3. Steps to Use the Generator
 
-- Open the tool in a browser.
+- Open the tool in a browser using this link: https://timeline-generator.onrender.com/.
 
 - Enter Start Date
 
